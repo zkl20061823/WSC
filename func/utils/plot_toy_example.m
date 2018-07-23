@@ -8,7 +8,7 @@ fs = 14;  % Font size
 ds = 10;  % Display step
 num_iter = length(obj.obj);
 
-output_dir = fullfile('results', 'figures');
+output_dir = fullfile('.', 'results', 'figures');
 if ~exist(output_dir, 'dir')
     mkdir(output_dir);
 end

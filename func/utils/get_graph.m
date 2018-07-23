@@ -31,7 +31,7 @@ if k < 1
     k = round(k * n);
 end
 
-output_dir = fullfile('results', 'graph');
+output_dir = fullfile('.', 'results', 'graph');
 if ~exist(output_dir, 'dir')
     mkdir(output_dir);
 end
