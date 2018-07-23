@@ -20,7 +20,7 @@ To run the toy demo (as Fig. 2 in the paper).  Run the command in Matlab:
 ```
 
 Then you should be able to see the results from the classical clustering problem:
-![demo_toy](figures/demo_toy.gif)
+![demo_toy](images/demo_toy.gif)
 
 
 ### More info
